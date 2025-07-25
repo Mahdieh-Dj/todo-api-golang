@@ -14,9 +14,9 @@ A simple, modular **RESTful Todo API** built in Go using Clean Architecture prin
 
 ## 🚀 Getting Started
 
-docker compose up -d
-go mod init todo-api-go
-go get github.com/go-chi/chi/v5
-go get gorm.io/gorm
-go get gorm.io/driver/postgres
-go run cmd/server/main.go
+- docker compose up -d
+- go mod init todo-api-go
+- go get github.com/go-chi/chi/v5
+- go get gorm.io/gorm
+- go get gorm.io/driver/postgres
+- go run cmd/server/main.go
